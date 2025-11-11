@@ -12,7 +12,7 @@ class ExampleApp extends StatelessWidget {
         body: Center(
           child: Text(
             'Hello World',
-            style: context.textTheme.bodyText1,
+            style: context.textTheme.bodyLarge,
           ),
         ),
       ),
