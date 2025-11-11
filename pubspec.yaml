@@ -1,6 +1,6 @@
 name: text_theme_extensions
 description: Helpers for removing boilerplate code on Flutter's TextTheme
-version: 1.0.1
+version: 1.1.0
 homepage: https://github.com/feinstein/text_theme_extensions
 repository: https://github.com/feinstein/text_theme_extensions
 topics:

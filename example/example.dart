@@ -10,9 +10,17 @@ class ExampleApp extends StatelessWidget {
       title: 'Example App',
       home: Scaffold(
         body: Center(
-          child: Text(
-            'Hello World',
-            style: context.textTheme.bodyLarge,
+          child: Row(
+            children: [
+              Text(
+                'Hello ',
+                style: context.textTheme.bodyLarge,
+              ),
+              Text(
+                'World',
+                style: TextTheme.of(context).bodyLarge,
+              )
+            ],
           ),
         ),
       ),

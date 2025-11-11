@@ -17,4 +17,5 @@ Theme.of(context).textTheme;
 Just do:
 ```dart
 context.textTheme;
+TextTheme.of(context);
 ```

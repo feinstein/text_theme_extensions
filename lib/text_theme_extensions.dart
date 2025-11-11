@@ -6,12 +6,11 @@ library text_theme_extensions;
 
 import 'package:flutter/material.dart';
 
-// Leaving this out as static methods on Classes aren't supported.
-// extension TextThemeFinder on TextTheme {
-//   static TextTheme of(BuildContext context, {bool shadowThemeOnly = false}) {
-//     return Theme.of(context, shadowThemeOnly: shadowThemeOnly).textTheme;
-//   }
-// }
+extension TextThemeFinder on TextTheme {
+  static TextTheme of(BuildContext context) {
+    return Theme.of(context).textTheme;
+  }
+}
 
 extension BuildContextTextThemeFinder on BuildContext {
   TextTheme get textTheme => Theme.of(this).textTheme;
